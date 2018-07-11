@@ -2,8 +2,8 @@
 //  JenkinsTestingUITests.swift
 //  JenkinsTestingUITests
 //
-//  Created by jenkins on 17/10/17.
-//  Copyright © 2017 jenkins. All rights reserved.
+//  Created by Jenkins on 11/07/18.
+//  Copyright © 2018 jenkins. All rights reserved.
 //
 
 import XCTest
