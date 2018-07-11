@@ -29,7 +29,7 @@ dir ('/Users/Shared/Jenkins/Home/workspace/PipeLineFromGithubTestProject') {
 }
 }
 
-    stage('fastlane') {
+    /*stage('fastlane') {
         sh 'whereis fastlane'
 
         dir ('/Users/Shared/Jenkins/PipeLineTestProject') {
@@ -51,7 +51,7 @@ dir ('/Users/Shared/Jenkins/Home/workspace/PipeLineFromGithubTestProject') {
     stage('archive') {
         //Archiving artifacts
         archiveArtifacts '**'
-    }
+    }*/
 }
 
 def fastlane(lane) {
