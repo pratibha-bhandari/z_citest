@@ -21,12 +21,11 @@ node {
 
 
 stage('build') {
-dir ('Barrierefrei') {
-dir('output') {
-deleteDir()
-}
-sh 'fastlane build'
-//fastlane("build")
+    dir ('Barrierefrei') {
+    dir('output') {
+        deleteDir()
+    }
+    fastlane("build")
 }
 }
 
