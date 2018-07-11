@@ -12,8 +12,8 @@ node {
             doGenerateSubmoduleConfigurations: false,
             extensions: [[$class: 'CleanBeforeCheckout']], submoduleCfg: [],
             userRemoteConfigs: [[
-                credentialsId: '91877f3d-b2fd-42a8-92b2-5c37d8b5f42c',
-                url: 'http://Parijatchandra@scmci.noncd.rz.db.de/bitbucket/scm/zcit/z_citest.git'
+                credentialsId: '63c69d9f-e5d0-4496-895f-2bc55da86ddb',
+                url: 'https://github.com/pratibha-bhandari/z_citest.git'
             ]]
         ])
     }
