@@ -25,6 +25,13 @@ platform :ios do
     scan
   end
 
+desc "Build App"
+lane :build do
+setup_jenkins
+reset_simulators
+scan(project: "./../BFACore/BFACore.xcodeproj", scheme: "BFACore")
+end
+
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
   lane :beta do
