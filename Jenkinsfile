@@ -25,7 +25,7 @@ stage('build') {
     dir('output') {
         deleteDir()
     }
-    fastlane("build")
+    fastlane("env")
 }
 }
 
