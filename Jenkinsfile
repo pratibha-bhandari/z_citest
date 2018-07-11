@@ -24,7 +24,7 @@ stage('build') {
 
 sh 'whereis fastlane'
 
-dir ('/Users/Shared/Jenkins/Home/workspace/PipeLineFromGithubTestProject') {
+dir ('/Users/Shared/Jenkins/Home/workspace/PipelineTest') {
     fastlane("build")
 }
 }
