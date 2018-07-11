@@ -29,7 +29,7 @@ desc "Build App"
 lane :build do
 setup_jenkins
 reset_simulators
-scan(project: "./../JenkinsTesting/JenkinsTesting.xcodeproj", scheme: "JenkinsTesting")
+scan(project: "./../z_citest_github/JenkinsTesting.xcodeproj", scheme: "JenkinsTesting")
 end
 
   desc "Submit a new Beta Build to Apple TestFlight"
