@@ -28,7 +28,6 @@ dir ('/Users/Shared/Jenkins/Home/workspace/PipeLineFromGithubTestProject') {
     fastlane("test")
 }
 }
-}
 
     stage('fastlane') {
         sh 'whereis fastlane'
