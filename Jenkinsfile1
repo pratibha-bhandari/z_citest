@@ -13,7 +13,7 @@ node {
             extensions: [[$class: 'CleanBeforeCheckout']], submoduleCfg: [],
             userRemoteConfigs: [[
                 credentialsId: '6c17c82f-93e1-4c72-904d-593e5accd4c3',
-                url: 'http://Parijatchandra@scmci.noncd.rz.db.de/bitbucket/scm/zcit/z_citest.git'
+                url: 'https://github.com/pratibha-bhandari/z_citest.git'
             ]]
         ])
     }
