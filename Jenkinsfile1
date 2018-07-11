@@ -17,8 +17,15 @@ node {
             ]]
         ])
     }
-
     stage('build') {
+
+        sh 'whereis fastlane'
+
+        dir ('/Users/Shared/Jenkins/Home/workspace/PipelineTest') {
+            fastlane("build")
+        }
+    }
+    /*stage('build') {
         // Build
         //sh 'security unlock-keychain -p jenkins ${HOME}/Library/Keychains/jenkins.keychain'
 
@@ -51,7 +58,7 @@ node {
     stage('archive') {
         //Archiving artifacts
         archiveArtifacts '**'
-    }
+    }*/
 }
 
 def fastlane(lane) {
