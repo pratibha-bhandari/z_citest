@@ -380,6 +380,7 @@
 		A65C51C31F960CF60055C5B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: NIIT TECHNOLOGIES GMBH (UAWU67869T)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: NIIT TECHNOLOGIES GMBH (UAWU67869T)";
@@ -404,6 +405,7 @@
 		A65C51C41F960CF60055C5B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: NIIT TECHNOLOGIES GMBH (UAWU67869T)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: NIIT TECHNOLOGIES GMBH (UAWU67869T)";
