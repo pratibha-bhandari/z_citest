@@ -25,7 +25,8 @@ dir ('Barrierefrei') {
 dir('output') {
 deleteDir()
 }
-fastlane("build")
+sh 'bundle exec fastlane build'
+//fastlane("build")
 }
 }
 

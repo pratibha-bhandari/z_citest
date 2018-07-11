@@ -5,22 +5,22 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.005834">
+      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.027389">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.00107">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.008709">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: setup_jenkins" time="0.001449">
+      <testcase classname="fastlane.lanes" name="2: setup_jenkins" time="0.002771">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: reset_simulator_contents" time="0.001722">
+      <testcase classname="fastlane.lanes" name="3: reset_simulator_contents" time="0.002854">
         
       </testcase>
     
