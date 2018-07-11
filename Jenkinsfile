@@ -21,11 +21,12 @@ node {
 
 
 stage('build') {
-    dir ('Barrierefrei') {
-    dir('output') {
-        deleteDir()
-    }
-    fastlane("env")
+
+sh 'whereis fastlane'
+
+dir ('/Users/Shared/Jenkins/Home/workspace/PipeLineFromGithubTestProject') {
+    fastlane("test")
+}
 }
 }
 
